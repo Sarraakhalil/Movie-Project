@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D98AB1C298283B700D587FD /* ReservationDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D98AB1B298283B700D587FD /* ReservationDetailsView.swift */; };
+		0D98AB1E2982880700D587FD /* MovieDetailsview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D98AB1D2982880700D587FD /* MovieDetailsview.swift */; };
 		DEF2E48729827CB00022CA5B /* Movie_ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF2E48629827CB00022CA5B /* Movie_ProjectApp.swift */; };
 		DEF2E48929827CB00022CA5B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF2E48829827CB00022CA5B /* ContentView.swift */; };
 		DEF2E48B29827CB10022CA5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEF2E48A29827CB10022CA5B /* Assets.xcassets */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D98AB1B298283B700D587FD /* ReservationDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationDetailsView.swift; sourceTree = "<group>"; };
+		0D98AB1D2982880700D587FD /* MovieDetailsview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsview.swift; sourceTree = "<group>"; };
 		DEF2E48329827CB00022CA5B /* Movie-Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Movie-Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEF2E48629827CB00022CA5B /* Movie_ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie_ProjectApp.swift; sourceTree = "<group>"; };
 		DEF2E48829827CB00022CA5B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +65,8 @@
 				DEF2E48C29827CB10022CA5B /* Preview Content */,
 				DEF2E49429827F230022CA5B /* MovieDataModel.swift */,
 				DEF2E49629827FB60022CA5B /* HomeView.swift */,
+				0D98AB1B298283B700D587FD /* ReservationDetailsView.swift */,
+				0D98AB1D2982880700D587FD /* MovieDetailsview.swift */,
 			);
 			path = "Movie-Project";
 			sourceTree = "<group>";
@@ -143,7 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D98AB1E2982880700D587FD /* MovieDetailsview.swift in Sources */,
 				DEF2E48929827CB00022CA5B /* ContentView.swift in Sources */,
+				0D98AB1C298283B700D587FD /* ReservationDetailsView.swift in Sources */,
 				DEF2E49729827FB60022CA5B /* HomeView.swift in Sources */,
 				DEF2E49529827F230022CA5B /* MovieDataModel.swift in Sources */,
 				DEF2E48729827CB00022CA5B /* Movie_ProjectApp.swift in Sources */,
@@ -282,6 +290,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +319,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
