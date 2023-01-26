@@ -11,6 +11,8 @@
 		DEF2E48929827CB00022CA5B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF2E48829827CB00022CA5B /* ContentView.swift */; };
 		DEF2E48B29827CB10022CA5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEF2E48A29827CB10022CA5B /* Assets.xcassets */; };
 		DEF2E48E29827CB10022CA5B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEF2E48D29827CB10022CA5B /* Preview Assets.xcassets */; };
+		DEF2E49529827F230022CA5B /* MovieDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF2E49429827F230022CA5B /* MovieDataModel.swift */; };
+		DEF2E49729827FB60022CA5B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF2E49629827FB60022CA5B /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		DEF2E48829827CB00022CA5B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DEF2E48A29827CB10022CA5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEF2E48D29827CB10022CA5B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DEF2E49429827F230022CA5B /* MovieDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDataModel.swift; sourceTree = "<group>"; };
+		DEF2E49629827FB60022CA5B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				DEF2E48829827CB00022CA5B /* ContentView.swift */,
 				DEF2E48A29827CB10022CA5B /* Assets.xcassets */,
 				DEF2E48C29827CB10022CA5B /* Preview Content */,
+				DEF2E49429827F230022CA5B /* MovieDataModel.swift */,
+				DEF2E49629827FB60022CA5B /* HomeView.swift */,
 			);
 			path = "Movie-Project";
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEF2E48929827CB00022CA5B /* ContentView.swift in Sources */,
+				DEF2E49729827FB60022CA5B /* HomeView.swift in Sources */,
+				DEF2E49529827F230022CA5B /* MovieDataModel.swift in Sources */,
 				DEF2E48729827CB00022CA5B /* Movie_ProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
